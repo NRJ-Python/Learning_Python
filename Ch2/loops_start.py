@@ -21,6 +21,10 @@ def main():
       print(x) #Print 5 and 6 only
   for x in range(5,10):
       if(x%2==0):continue
-      print(x) #Skips even number            
+      print(x) #Skips even number
+  #Using the enumerate() function to get index
+  days=["Mon","Tue","Wed"]
+  for i,d in enumerate(days):
+      print(i,d)                 
 if __name__ == "__main__":
   main()
