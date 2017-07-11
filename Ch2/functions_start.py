@@ -12,4 +12,7 @@ def func2(arg1,arg2):
     print(arg1," ",arg2)
 func2(10,20)
 print (func2(10,20)) #Still prints none too as there is no return value
-    
+#function that returns a value
+def cube(x):
+    return x*x*x
+print (cube(3))#Returns 27   
