@@ -16,3 +16,12 @@ print (func2(10,20)) #Still prints none too as there is no return value
 def cube(x):
     return x*x*x
 print (cube(3))#Returns 27   
+#Functions with default value of argument
+def power(num,x=1):
+    result=1;
+    for i in range(x):
+        result=result*num
+    return result
+print(power(2))
+print(power(2,3))
+print(power(x=3,num=2))
