@@ -11,7 +11,8 @@ print(f)
 #print("string")+123 [Gives Error]
 print("string" +str(123))
 def somefunction():
+    global f
     f="def"
     print(f) #Gives output = def
 somefunction()
-print(f) #Gives output =abc
+print(f) #Gives output =def
