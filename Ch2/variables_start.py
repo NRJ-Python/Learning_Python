@@ -16,3 +16,5 @@ def somefunction():
     print(f) #Gives output = def
 somefunction()
 print(f) #Gives output =def
+del (f) # Delete a variable
+print (f) # Gives error as f is deleted
