@@ -11,5 +11,9 @@ def main():
   #For Loop
   for x in range(5,10):
       print(x)
+  #Using Loop over a collection
+  days=["Mon","Tue","Wed"]
+  for x in days:
+      print(x)    
 if __name__ == "__main__":
   main()
