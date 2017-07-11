@@ -7,3 +7,6 @@ print(f)
 #Re-Declare a variable
 f="abc"
 print(f)
+#Error :Different types can't be combined
+#print("string")+123 [Gives Error]
+print("string" +str(123))
