@@ -12,5 +12,6 @@ def main():
   
   # %y/%Y - Year, %a/%A - weekday, %b/%B - month, %d - day of month
   print(now.strftime(("%Y"))) #Full year with century
+  print(now.strftime("%a,%d,%B,%y"))#Abbreviated day, num, full month, abbreviated year
 if __name__ == "__main__":
   main();
