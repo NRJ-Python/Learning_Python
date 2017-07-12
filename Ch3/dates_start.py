@@ -17,6 +17,9 @@ def main():
  #Get today's date and time from datetime class
  today=datetime.now()
  print("The date and time is :",today)
+ #Get the current time
+ t=datetime.time(datetime.now())
+ print("The current time is :",t)
 if __name__ == "__main__":
   main();
   
