@@ -12,6 +12,8 @@ def main():
  print("Today's date is :",today)
  #Print out date's individual components
  print("Date Components :",today.day,today.month,today.year) 
+ #Retrieve today's weekday (0=Monday , 6=Sunday)
+ print("Today's weekday is",today.weekday())
 if __name__ == "__main__":
   main();
   
