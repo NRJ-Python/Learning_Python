@@ -10,7 +10,8 @@ def main():
 #Get today's date from today() method from date class
  today=date.today()
  print("Today's date is :",today)
-  
+ #Print out date's individual components
+ print("Date Components :",today.day,today.month,today.year) 
 if __name__ == "__main__":
   main();
   
