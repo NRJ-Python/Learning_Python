@@ -20,6 +20,11 @@ def main():
  #Get the current time
  t=datetime.time(datetime.now())
  print("The current time is :",t)
+ #Getting day number and day
+ wd=date.weekday(today)
+ print("Today's day number is %d" % wd)
+ day=["Mon", "Tue" ,"Wed"]
+ print("And the days is ",day[wd])
 if __name__ == "__main__":
   main();
   
