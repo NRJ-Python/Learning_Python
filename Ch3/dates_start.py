@@ -14,6 +14,9 @@ def main():
  print("Date Components :",today.day,today.month,today.year) 
  #Retrieve today's weekday (0=Monday , 6=Sunday)
  print("Today's weekday is",today.weekday())
+ #Get today's date and time from datetime class
+ today=datetime.now()
+ print("The date and time is :",today)
 if __name__ == "__main__":
   main();
   
